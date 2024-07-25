@@ -14,3 +14,5 @@ jobs:
         go-version: "1.22"
     - name: Build
       run: docker build -t bacana .
+    - name:
+      run: echo "PUSHEI"
